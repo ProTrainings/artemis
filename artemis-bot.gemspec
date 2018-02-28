@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "httparty", "~> 0.15.0"
+  spec.add_dependency "httparty", "~> 0.15.6"
   spec.add_dependency "httmultiparty", "~> 0.3.16"
   spec.add_dependency "activesupport", "~> 5.1.4"
   spec.add_dependency "olimpo", "~> 0.1.0"
